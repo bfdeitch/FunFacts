@@ -30,7 +30,16 @@ public class FunFactsActivity extends Activity {
                 // Update the label with our dynamic fact
                 Random randomGenerator = new Random();
                 int randomNumber = randomGenerator.nextInt(3);
-                fact = randomNumber + "";
+
+                if (randomNumber == 0) {
+                    fact = "Ants stretch when they wake up in the morning.";
+                } else if (randomNumber == 1) {
+                    fact = "Ostriches can run faster than horses";
+                } else if (randomNumber == 2) {
+                    fact = "Olympic gold medals are actually made mostly of silver";
+                } else {
+                    fact = "Sorry, there was an error.";
+                }
 
                 factLabel.setText(fact);
             }
