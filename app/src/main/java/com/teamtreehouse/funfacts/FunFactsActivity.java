@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import java.util.Random;
+
 
 public class FunFactsActivity extends Activity {
 
@@ -24,7 +26,12 @@ public class FunFactsActivity extends Activity {
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String fact = "Ostriches can run faster than horses.";
+                String fact = "";
+                // Update the label with our dynamic fact
+                Random randomGenerator = new Random();
+                int randomNumber = randomGenerator.nextInt(3);
+                fact = randomNumber + "";
+
                 factLabel.setText(fact);
             }
         };
