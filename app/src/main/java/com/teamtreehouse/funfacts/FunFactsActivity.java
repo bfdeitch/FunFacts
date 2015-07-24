@@ -35,7 +35,8 @@ public class FunFactsActivity extends Activity {
                 factLabel.setText(fact);
 
                 int color = mColorWheel.getColor();
-                relativeLayout.setBackgroundColor(Color.RED);
+                relativeLayout.setBackgroundColor(color);
+                showFactButton.setTextColor(color);
             }
         };
         showFactButton.setOnClickListener(listener);
