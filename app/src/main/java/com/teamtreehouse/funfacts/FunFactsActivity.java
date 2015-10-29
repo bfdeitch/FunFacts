@@ -15,11 +15,11 @@ import java.util.Random;
 
 public class FunFactsActivity extends Activity {
 
-    private FactBook mFactBook = new FactBook();
-    private ColorWheel mColorWheel = new ColorWheel();
-    private RelativeLayout mRelativeLayout;
     private TextView mFactLabel;
     private Button mShowFactButton;
+    private RelativeLayout mRelativeLayout;
+    private FactBook mFactBook = new FactBook();
+    private ColorWheel mColorWheel = new ColorWheel();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
