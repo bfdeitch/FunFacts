@@ -19,8 +19,9 @@ public class ColorWheel {
             "#e0ab18", // mustard
             "#637a91", // dark gray
             "#f092b0", // pink
+            "#8b4513" ,// Bronze
             "#b7c0c7",  // light gray
-            "#8b4513" // Bronze
+            "#ddca8b" // Gold
     };
 
     // Method (abilities: things the object can do)
