@@ -21,8 +21,8 @@ public class ColorWheel {
             "#f092b0", // pink
             "#b7c0c7", // light gray
             "#ddca8b", //gold
-            "#8b4513" //bronze
-
+            "#8b4513", //bronze
+            "#FF6347"  //tomato
 
 
     };
