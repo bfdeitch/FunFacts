@@ -23,6 +23,9 @@ public class ColorWheel {
             "#8b4513",
             "FFFFFFF" // màu trắng
      };
+            "#8b4513",
+            "#000000"   //đen
+    };
 
     // Method (abilities: things the object can do)
     public int getColor() {
