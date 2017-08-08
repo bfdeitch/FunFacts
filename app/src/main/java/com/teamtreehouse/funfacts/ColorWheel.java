@@ -20,7 +20,19 @@ public class ColorWheel {
             "#637a91", // dark gray
             "#f092b0", // pink
             "#b7c0c7",  // light gray
+<<<<<<< Updated upstream
 
+=======
+<<<<<<< Updated upstream
+            "#ddca8b"  // gold color
+=======
+<<<<<<< HEAD
+
+=======
+            "#ddca8b"  // gold color
+>>>>>>> adding_gold_color
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     };
 
     // Method (abilities: things the object can do)
